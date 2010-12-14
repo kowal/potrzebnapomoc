@@ -1,0 +1,183 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(images/img01.jpg) repeat-x;
+	font: normal 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+h1 {
+	color: black;
+	font-size: 10px;
+}
+
+h2 {	
+	font: 22px Times New Roman;
+	color: #000080;
+}
+
+h3 {
+	font: normal 16px Times New Roman;	
+	text-align: justify;
+	color: #000045;
+}
+
+p, blockquote, ul, ol {
+	line-height: 18px;
+	text-align: justify;
+	
+}
+
+
+a {
+	color: #0000B0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* Header */
+
+#header {
+	width: 760px;
+	height: 100px;
+	margin: 0 auto;
+	background: url(images/img02.jpg);
+}
+
+#header h1, #header h2 {	
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#header h1 {
+	font: italic 13px Times New Roman;
+	color: white;
+}
+
+#header h2 {
+	font: bold 18px Times New Roman;
+	color: white;
+}
+
+/* Menu */
+
+#menu {
+	width: 800px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 17px 20px 0 20px;
+	background: url(images/not_pressed.jpg) repeat-x;	
+	text-decoration: none;
+	font: bold 16px Times New Roman, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+#menu a:hover {	
+	color: #D8D8D8;	
+	background: url(images/pressed.jpg) repeat-x;
+}
+
+#menu .first a {
+	background: url(images/not_pressed.jpg) repeat-x;
+}
+
+#menu .first a :hover {
+	background: url(images/pressed.jpg) repeat-x;
+}
+
+/* Content */
+
+#content {
+	width: 920px;
+	margin: 0 auto 20px auto;
+	padding: 20px;
+	/*background: #FFFFFF url(images/img04.jpg) repeat-x left bottom;*/
+}
+
+/* Posts */
+
+#posts {
+	float: left;
+	width: 702px;
+	padding-left: 3px;
+	padding-right: 5px;
+	background: white;
+}
+
+/* Links */
+
+#links {
+	float: right;
+	width: 180px;
+	padding-left: 20px;
+	background: url(images/img05.gif) repeat-y;
+}
+
+#links ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#links li ul {
+	padding: 5px 0 30px 0;
+}
+
+#links li li {
+	padding: 7px 10px;
+	background: url(images/img06.gif) repeat-x left bottom;
+}
+
+#links li a {
+	text-decoration: none;
+}
+
+#links li a:hover {
+	text-decoration: underline;
+}
+
+#links li i {
+	font-style: normal;
+	font-size: 9px;
+}
+
+#links li h2 {
+	font-size: 14px;
+}
+
+/* Footer */
+
+#footer {
+	height: 15px;
+	padding: 15px;
+	background: #2186A8;
+}
+
+#footer p {
+	text-align: center;
+	color: #FFFFFF;
+}
