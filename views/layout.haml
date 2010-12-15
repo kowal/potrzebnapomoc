@@ -1,0 +1,41 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
+    %title Urszula Sablik Site - potrzebna pomoc
+    %meta{:content => "pomoc, urszula sablik, ula sablik, sparaliżowana, zawał rdzenia, charytatywne, 1% podatku", :name => "keywords"}
+    %meta{:content => "Marek Kowalcze", :name => "Author"}
+    %meta{:content => "Strona Urszuli Sablik i jej prośba o pomoc", :name => "description"}
+    %link{:href => "stylesheets/default.css", :rel => "stylesheet", :type => "text/css"}
+  %body
+    #header
+      %h1
+        %br/
+        \&nbsp;&nbsp;&nbsp;
+        %big
+          %b
+            "Dobroć serca jest tym,
+            %br/
+            \&nbsp;&nbsp;&nbsp; czym ciepło słońca - ona daje życie"
+            %br/
+        \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Henryk Sienkiewicz
+      %h2{:style => "text-align: right"} Strona domowa Urszuli Sablik&nbsp;&nbsp;
+    #menu
+      %ul
+        - @menu.each_with_index do |m, i|
+          %li
+            %a{:accesskey => i, :href => m[:page], :title => m[:title]}
+              = m[:label]
+              %br/
+              %br/
+    #content
+      = yield
+    #footer
+      %p#legal
+        Copyright &copy; 2010 marek.kowalcze [at] gmail.com
