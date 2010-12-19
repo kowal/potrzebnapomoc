@@ -111,9 +111,6 @@ a:hover {
 
 /* Content */
 
-html, body, #container {
-    height: 100%;
-}
 
 body > #container {
     height: auto; min-height: 100%;
@@ -199,4 +196,10 @@ body > #container {
 
 .gal img {
     border: 0px solid
+}
+
+.picture {
+    float: left;
+    padding-left: 55px;
+    width: 190px;
 }
