@@ -203,3 +203,7 @@ body > #container {
     padding-left: 55px;
     width: 190px;
 }
+
+li.light {
+    padding-bottom: 10px;
+}
