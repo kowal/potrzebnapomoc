@@ -111,11 +111,18 @@ a:hover {
 
 /* Content */
 
+html, body, #container {
+    height: 100%;
+}
+
+body > #container {
+    height: auto; min-height: 100%;
+}
+
 #content {
-	width: 920px;
+	width: 750px;
 	margin: 0 auto 20px auto;
-	padding: 20px;
-	/*background: #FFFFFF url(images/img04.jpg) repeat-x left bottom;*/
+	padding-bottom: 3em;
 }
 
 /* Posts */
@@ -172,11 +179,24 @@ a:hover {
 /* Footer */
 
 #footer {
-	padding: 1px;
-	background: #2186A8;
+	/*padding: 1px;*/
+	/*background: #2186A8;*/
+        /*height: 4em;*/
+
+    background: #2186A8;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+
 }
 
 #footer p {
 	text-align: center;
 	color: #FFFFFF;
+}
+
+.gal img {
+    border: 0px solid
 }

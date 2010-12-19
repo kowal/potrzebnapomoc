@@ -7,6 +7,11 @@
     %meta{:content => "Marek Kowalcze", :name => "Author"}
     %meta{:content => "Strona Urszuli Sablik i jej prośba o pomoc", :name => "description"}
     %link{:href => "stylesheets/default.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "stylesheets/jquery.lightbox-0.5.css", :rel => "stylesheet", :type => "text/css"}
+    %script{ :type => "text/javascript", :src => "http://code.jquery.com/jquery-1.4.4.min.js" }
+    %script{ :type => "text/javascript", :src => "javascripts/jquery.lightbox-0.5.min.js" }
+    %script{ :type => "text/javascript" }
+      $(function() { $('a.gal').lightBox( { overlayOpacity: 0.2 } ); });
   %body
     #header
       %h1
@@ -34,8 +39,9 @@
               = m[:label]
               %br/
               %br/
-    #content
-      = yield
+    #container
+      #content
+        = yield
     #footer
       %p#legal
         Copyright &copy; 2010 marek.kowalcze [at] gmail.com
