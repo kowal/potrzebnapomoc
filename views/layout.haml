@@ -30,7 +30,8 @@
         \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         Henryk Sienkiewicz
-      %h2{:style => "text-align: right"} Strona domowa Urszuli Sablik&nbsp;&nbsp;
+      %a{ :href => '/', :title => 'Przejście do strony głównej' }
+        %h2{:style => "text-align: right"} Strona domowa Urszuli Sablik&nbsp;&nbsp;
     #menu
       %ul
         - @menu.each_with_index do |m, i|
