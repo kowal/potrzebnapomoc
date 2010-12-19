@@ -8,7 +8,7 @@ MENU = [
   { :page => :historia, :title => "Poznaj historię choroby",  :label => "Choroba" },
   { :page => :dok,      :title => "Dokumenty",                :label => "Dokumenty" },
   { :page => :klinika,  :title => "Klinika NeuroVita",        :label => "O Klinice"},
-  { :page => :cel,      :title => "Na co zbieramy?",          :label => "Jak pomóc ?"},
+  { :page => :cel,      :title => "Na co zbieramy?",          :label => "Jak pomóc?"},
   { :page => :zdjecia,  :title => "Kilka zdjęć...",           :label => "Zdjęcia"}
 ]
 
