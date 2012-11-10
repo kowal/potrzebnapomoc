@@ -1,8 +1,9 @@
-* prepare and run
+== Prepare and run
 
 bundle
 rackup
 
-* run tests
+== Run tests
 
 rake spec
+
