@@ -1,6 +1,4 @@
-require 'rubygems'
 require 'sinatra'
-require 'haml'
 
 MENU = [
   { :page => :main,     :title => "Strona główna",            :label => "Strona główna" },
@@ -11,6 +9,8 @@ MENU = [
   { :page => :cel,      :title => "Na co zbieramy?",          :label => "Jak pomóc?"},
   { :page => :zdjecia,  :title => "Kilka zdjęć...",           :label => "Zdjęcia"}
 ]
+
+settings.root = File.expand_path '.'
 
 get('/') do
   @menu = MENU

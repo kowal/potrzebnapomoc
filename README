@@ -1,0 +1,8 @@
+* prepare and run
+
+bundle
+rackup
+
+* run tests
+
+rake spec
