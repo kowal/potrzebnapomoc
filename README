@@ -5,5 +5,5 @@ rackup
 
 == Run tests
 
-rake spec
+rspec
 
