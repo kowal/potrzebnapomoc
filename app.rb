@@ -12,6 +12,8 @@ MENU = [
 
 settings.root = File.expand_path '.'
 
+set :protection, :except => :frame_options
+
 get('/') do
   @menu = MENU
   haml :index
