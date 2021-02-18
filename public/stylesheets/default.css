@@ -35,7 +35,6 @@ p, blockquote, ul, ol {
 	
 }
 
-
 a {
 	color: #0000B0;
 }
@@ -111,9 +110,8 @@ a:hover {
 
 /* Content */
 
-
 body > #container {
-    height: auto; min-height: 100%;
+	height: auto; min-height: 100%;
 }
 
 #content {
@@ -176,17 +174,12 @@ body > #container {
 /* Footer */
 
 #footer {
-	/*padding: 1px;*/
-	/*background: #2186A8;*/
-        /*height: 4em;*/
-
-    background: #2186A8;
-    clear: both;
-    position: relative;
-    z-index: 10;
-    height: 3em;
-    margin-top: -3em;
-
+	background: #2186A8;
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+	margin-top: -3em;
 }
 
 #footer p {
@@ -195,16 +188,27 @@ body > #container {
 }
 
 .gal img {
-    border: 0px solid
+	border: 0px solid
 }
 
 .picture {
-    float: left;
-    padding-left: 55px;
-    width: 190px;
-    height: 150px;
+	float: left;
+	padding-left: 55px;
+	width: 190px;
+	height: 150px;
 }
 
 li.light {
-    padding-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+/* Cel */
+
+p.info {
+	font-weight: bold;
+	color: crimson;
+}
+
+.center {
+	text-align: center;
 }
