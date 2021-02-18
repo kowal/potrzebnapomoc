@@ -2,7 +2,7 @@ require File.dirname(__FILE__) + '/../acceptance_helper'
 
 describe 'Application navigation' do
 
-  it "should work on home page" do
+  it "opens the home page" do
     visit "/"
 
     assert_content 'Strona domowa Urszuli Sablik'
@@ -11,13 +11,13 @@ describe 'Application navigation' do
     assert_content 'Podziękowania'
   end
 
-  it "should work on Apel page" do
+  it "opens the Apel page" do
     visit '/apel'
 
     assert_content 'Mam na imię Urszula'
   end
 
-  it "should work on Historia page" do
+  it "opens the Historia page" do
     visit '/historia'
 
     assert_content 'Definicja choroby'
@@ -25,7 +25,7 @@ describe 'Application navigation' do
     assert_content 'Leczenie'
   end
 
-  it "should work on Dokumenty page" do
+  it "opens the Dokumenty page" do
     visit '/dok'
 
     assert_content 'Ważne dokumenty'
@@ -35,14 +35,14 @@ describe 'Application navigation' do
     assert_img_alt 'konsultacja medyczna'
   end
 
-  it 'should work on Klinika page' do
+  it 'opens the Klinika page' do
     visit '/klinika'
 
     assert_content 'Klinika'
     assert_content 'Neurovita'
   end
 
-  it 'should work on Cel page' do
+  it 'opens the Cel page' do
     visit '/cel'
 
     assert_content "Jak mogę pomóc"
@@ -51,7 +51,7 @@ describe 'Application navigation' do
     assert_content 'pomoc dla Urszuli'
   end
 
-  it 'should work on Zdjecia page' do
+  it 'opens the Zdjecia page' do
     visit '/zdjecia'
 
     assert_content 'Galeria fotografii'

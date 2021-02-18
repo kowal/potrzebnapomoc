@@ -13,9 +13,9 @@ RSpec.configure do |config|
 end
 
 def assert_content(content)
-  page.should have_content(content)
+  expect(page).to have_content(content)
 end
 
 def assert_img_alt(alt_text)
-  page.should have_xpath("//img[@alt='#{alt_text}']")
+  expect(page).to have_xpath("//img[@alt='#{alt_text}']")
 end
