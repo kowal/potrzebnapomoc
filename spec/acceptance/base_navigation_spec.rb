@@ -47,8 +47,7 @@ describe 'Application navigation' do
 
     assert_content "Jak mogę pomóc"
     assert_content 'W PRZEKAZANIU 1% PODATKU NALEŻY PODAĆ'
-    assert_content '0000232680'
-    assert_content 'pomoc dla Urszuli'
+    assert_content '0000232640'
   end
 
   it 'opens the Zdjecia page' do
