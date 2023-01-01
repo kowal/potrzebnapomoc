@@ -2,7 +2,7 @@
 
 ```
 bundle
-rackup
+ruby app.rb
 ```
 
 ## Run tests
