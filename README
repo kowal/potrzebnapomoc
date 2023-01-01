@@ -1,9 +1,12 @@
-== Prepare and run
+## Prepare and run
 
+```
 bundle
 rackup
+```
 
-== Run tests
+## Run tests
 
-rspec
-
+```
+be rspec
+```
